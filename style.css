@@ -1,0 +1,99 @@
+body{
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    overflow: hidden;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    font-size: 2vh;
+}
+
+.navbar ul {
+    margin-top: 1.5vh;
+    padding-bottom: 1vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.navbar ul li{
+    margin-left: 5vw;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.navbar ul li a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.discount{
+    padding-top: 0.5vh;
+    background-color: purple;
+    color: white;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0.5vh;
+}
+.close {
+    cursor: pointer;
+    position: absolute;
+    right: 0%; 
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+  }
+.content{
+    height: auto;
+    padding-top: 6vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.content ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.content ul li{
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 3vh;
+}
+.content h1{
+    font-size: 5rem;
+    line-height: 1.5 em;
+    text-align: center;
+}
+.content h2{
+    font-weight: lighter;
+    font-size: 2.5rem;
+    line-height: 1.5 em;
+    text-align: center;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+    padding: 15px 25px;
+    overflow: hidden;
+}
+.subimg{
+    margin-bottom: 25px;
+    max-width:100%;
+    overflow: hidden;
+}
+
+
+
+
