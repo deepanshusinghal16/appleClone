@@ -1,0 +1,54 @@
+.navbar{
+    overflow: hidden;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    font-size: 2vh;
+}
+
+.navbar ul {
+    margin-top: 1.5vh;
+    padding-bottom: 1vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navbar ul li{
+    margin-left: 5vw;
+    transition: ease all 0.20s;
+}
+.navbar ul li:hover{
+    transform: translateY(-0.125rem);
+    box-shadow: 0 0.5em 0.5em -0.4em white; 
+}
+.navbar ul li a{
+    color: rgba(255, 255, 255, 0.821);
+    text-decoration: none;
+    
+}
+.navbar ul li a:hover{
+    color: white;
+  
+  
+    transition: 0.5s;
+}
+.discount{
+    padding-top: 0.5vh;
+    background-color: purple;
+    color: white;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0.5vh;
+}
+.close {
+    cursor: pointer;
+    position: absolute;
+    right: 0%; 
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+  }
